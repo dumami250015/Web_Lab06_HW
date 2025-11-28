@@ -71,4 +71,25 @@ All student operations are managed by the `StudentController`.
 
     <img width="1306" height="628" alt="image" src="https://github.com/user-attachments/assets/90db0ad6-ee4c-4561-92ae-c52038a8705d" />
 
-### 5. 
+### 5. Change Password Workflow
+1. **Page Load (GET)**:
+   * User clicks "Change Password".
+   * `ChangePasswordController` displays the form (`change-password.jsp`).
+2. **Form Submission (POST)**:
+   * **Validation**: The controller checks if:
+   * * New passwords match.
+     * The **Current Password** is correct (verified against DB using `BCrypt`).
+   * **Hashing**: If valid, the new password is hashed securely.
+   * **Update**: `UserDAO.updatePassword()` commits the change to the database.
+  
+   <img width="1306" height="626" alt="image" src="https://github.com/user-attachments/assets/727b999a-d2cc-43b0-a5f1-9b4f85c0aa46" />
+
+   <img width="1305" height="624" alt="image" src="https://github.com/user-attachments/assets/d9d475a7-bdd0-456a-84a7-bfa03e3f2c7e" />
+
+   <img width="1303" height="626" alt="image" src="https://github.com/user-attachments/assets/476ef62b-6f63-419d-bd94-82299c4c9cfa" />
+
+   <img width="1300" height="623" alt="image" src="https://github.com/user-attachments/assets/b1c2c1cb-8586-44f7-9a64-136657778bc1" />
+
+   <img width="1298" height="621" alt="image" src="https://github.com/user-attachments/assets/ae7f009a-5cfe-45bb-aae7-9c9ae5895f2b" />
+
+   <img width="1302" height="625" alt="image" src="https://github.com/user-attachments/assets/65bb92ec-d91e-4ee6-a0e2-065d6c50bcb4" />
