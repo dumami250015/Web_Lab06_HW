@@ -1,4 +1,4 @@
-# LAB 06 PRACTICE REPORT
+# LAB 06 HOMEWORK REPORT
 
 ## Application Code Flow
 
@@ -70,3 +70,5 @@ All student operations are managed by the `StudentController`.
     <img width="1308" height="628" alt="image" src="https://github.com/user-attachments/assets/588c142f-0d23-4ee2-9710-516be7307f7f" />
 
     <img width="1306" height="628" alt="image" src="https://github.com/user-attachments/assets/90db0ad6-ee4c-4561-92ae-c52038a8705d" />
+
+### 5. 
